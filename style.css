@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+    user-select: none;
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 150px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.nav-button{
+    margin: 10px 0; 
+    text-decoration: none;
+    width: 130px;
+    line-height: 40px;
+    text-align: center;
+    background: rgba(128, 128, 128, 0.288);
+    border-radius: 4px;
+    color: black;
+    border: 1px solid rgba(128, 128, 128, 0.288);
+     
+}
+
+.product {
+    text-align: center;
+    margin-bottom: 20px;
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 0 5px lightgray;
+    cursor: pointer;
+    transition: 0.3s;
+    overflow: hidden;
+    width: 22%;
+    box-sizing: border-box;
+    
+}
+
+.product img {
+    display: block;
+    margin: 0 auto;
+    max-width: 50%;
+    max-height: 50%;
+}
+
+.product p,
+.product h3,
+.product button {
+    margin: 10px 0;
+}
+h3 {
+    color: red;
+}
+
+
+
+
+
+
